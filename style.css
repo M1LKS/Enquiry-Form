@@ -1,0 +1,213 @@
+HTML {
+  background-color: rgb(45, 94, 173);
+  font-family: "calibri";
+  color: rgb(45, 94, 173);
+}
+#title {
+  text-align: center;
+  color: rgb(240, 247, 240) !important;
+  font-size: 200%;
+}
+
+#survey-form {
+  background-color: rgb(240, 247, 240);
+  width: 70%;
+  max-width:80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description {
+  text-align: center;
+  color: rgb(240, 247, 240) !important;
+  font-size: 130%;
+}
+
+/* left column CSS*/
+#presonaldetails {
+  background-color: rgb(240, 247, 240);
+  float: left;
+  width: 50%;
+  height: 385px;
+  
+}
+
+#name-label {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#name {
+  margin-left: 38px;
+  height: 20px;
+  width:200px;
+}
+#email-label {
+  margin-left: 30px;
+}
+#email {
+  margin-left: 42px;
+  height: 20px;
+   width:200px;
+}
+#number-label {
+  margin-left: 30px;
+}
+#number {
+  margin-left: 25px;
+  height: 20px;
+   width:200px;
+}
+#address-label {
+  margin-left: 30px;
+}
+#address1 {
+  margin-left: 27px;
+  width: 180px;
+  height: 20px;
+}
+#postcode {
+  margin-left: 98px;
+  margin-top: 5px;
+  width: 120px;
+  height: 20px;
+}
+#address2 {
+  margin-left: 98px;
+  width: 180px;
+  margin-top: 5px;
+  height: 20px;
+}
+#address3 {
+  margin-left: 98px;
+  width: 180px;
+  margin-top: 5px;
+  height: 20px;
+}
+#address4 {
+  margin-left: 98px;
+  width: 180px;
+  margin-top: 5px;
+  height: 20px;
+}
+
+/* Right column CSS*/
+#who {
+  background-color: rgb(240, 247, 240);
+  float: right;
+  width: 50%;
+  height: 385px;
+}
+#who-box {
+  margin-left: 30px;
+  width: 300px;
+  height: 30px;
+  margin-top: -10px;
+}
+#who-question {
+  margin-left: 30px;
+}
+#children-age {
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 20px;
+}
+#children {
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#dropdown {
+  width: 80px;
+  margin-top: 0px;
+  height: 20px;
+  margin-left: 30px;
+}
+#pet-label {
+  margin-left: 30px;
+}
+#pets {
+  margin-left: 30px;
+  width: 300px;
+  margin-top: 10px;
+  height: 20px;
+}
+#occupation-tag {
+  margin-left: 30px;
+}
+#occupation {
+  margin-left: 30px;
+  width: 300px;
+  height: 20px;
+}
+#salary {
+  margin-left: 30px;
+  margin-top: 5px;
+  height: 20px;
+  width: 150px;
+}
+
+/*Content CSS*/
+#search-criteria {
+  background-color: rgb(240, 247, 240);
+  float: right;
+  text-align: center;
+  width:100%
+}
+#what-tag {
+  margin-top: 10px;
+  font-size: 20px;
+}
+#what {
+  margin-top: 5px;
+}
+#date {
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+#when-tag {
+  font-size: 20px;
+}
+#have-tag {
+  font-size: 20px;
+}
+#why-tag {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#why {
+  margin-top: 5px;
+}
+#areas-tag {
+  font-size: 20px;
+}
+#areas {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+ 
+.checkboxes {
+  display:inline-block;
+  vertical-align:middle;
+  font-size:18px;
+  background-color:white;
+  width:50%;
+}
+
+#other {
+  height: 20px;
+}
+
+#submit {
+  margin-top: 40px;
+  margin-bottom: 3%;
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+  color:rgb(240, 247, 240);
+  background-color:rgb(45, 94, 173);
+}
