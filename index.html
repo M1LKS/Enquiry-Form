@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Enquiry form</title>
+</head>
+
+<body>
+  <h1 id="title">Enquiry Form</h1>
+  <div>
+    <p id="description"><strong>Please complete to recieve a tailored experience</strong></p>
+
+    <form id="survey-form" action="">
+      <div id="presonaldetails">
+<br>
+<br>       
+        <div>
+          <label for="name" id="name-label">* Name: </label>
+          <input type="text" name="name" id="name" placeholder="Enter your full name" required="" id="names">
+        </div>
+        <br>
+        <div >
+          <label for="email" id="email-label">* Email: </label>
+          <input type="email" name="email" placeholder="Enter email" required="" id="email">
+        </div><br>
+        <div >
+          <label for="number-label" id="number-label">* Number: </label>
+          <input type="number" name="number" placeholder="Enter telephone number" required="" id="number" min="1" max="125">
+        </div><br>
+        <div id="address-label">
+          <label for="address-label">* Address: </label>
+          <input type="address" name="address" placeholder="1st line" required="" size="30" id="address1">
+          <input type="address" name="address" placeholder="2nd line" size="30" id="address2">
+          <input type="address" name="address" placeholder="City" required="" size="30" id="address3">
+          <input type="address" name="address" placeholder="County" required="" size="30" id="address4">
+          <input type="address" name="address" placeholder="Post Code" required="" size="10" id="postcode">
+        </div>
+      </div>
+
+      <div>
+
+        <div id="who">
+          <p id="who-question">Who will be moving into the property?</p>
+          <input type="text" required="" size="40" max="100" id="who-box">
+          <div id="children-dropdown">
+            <p id="children">How many children?</p>
+            <select id="dropdown" name="children" class="dropdown">
+            <option disabled="" value="">Select an option</option>
+            <option value="student">0</option>
+            <option value="student">1</option>
+            <option value="student">2</option>
+            <option value="student">3</option>
+            <option value="student">4</option>
+            <option value="student">5+</option>
+          </select>
+            <br>
+
+            <label for="children"></label>
+            <input placeholder="what ages are they" id="children-age">
+          </div>
+          <br>
+          <label id="pet-label" for="pets">Do you have any pets?</label><br>
+          <input placeholder="Type/s and age/s" name="pets" id="pets">
+
+          <p id="occupation-tag">What are/is your current occupation/s & salary/s?</p>
+          <input required="" size="40" max="100" placeholder="Occupation" type="text" id="occupation">
+          <input required="" size="20" max="100" placeholder="Salaries" id="salary">
+
+        </div>
+        <br>
+
+        <div id=search-criteria>
+          <p id="why-tag">Why are you looking to move?</p>
+          <textarea id="why" class="input-field" style="height:50px;width: 400px;" name="why" placeholder="Reason for move"></textarea>
+          <p id="what-tag">What are you looking for?</p>
+          <textarea id="what" class="input-field" style="height:100px;width: 400px;" name="what" placeholder="Describe your ideal property"></textarea>
+
+          <p id="when-tag">When date do you need to move by?</p>
+          <input type="date" name="movedate" id="date">
+
+          <div id="radio">
+            <p id="have-tag">Have you given notice to vacate your current property?</p>
+            <label>Yes<input name="noticegiven" value="1" type="radio"></label>
+            <label>No<input name="noticegiven" value="2" type="radio"></label>
+            <label>N/A<input name="noticegiven" value="3" type="radio"></label>
+
+          </div>
+ <div id="areas">
+      <p id="areas-tag">What areas are you considering?</p>
+   
+        <div class="checkboxes">
+          <div id="check1">
+            <ul style="list-style: none;">
+               <li><label for="woking">Woking - Town Center<input type="checkbox" value="1"></label></li>
+               <li><label for="horsell">Horsell<input type="checkbox" value="2"></label></li>
+               <li><label for="old woking">Old Woking<input type="checkbox" value="9"></li>
+               <li> <label for="goldsworth park">Goldsworth Park<input type="checkbox" value="3"></li>
+               <li><label for="st. johns">St. Johns<input type="checkbox" value="4"></li>
+               <li> <label for="knaphill">Knaphill<input type="checkbox" value="5"></li>
+                                                                       
+               <li><label for="brookwood">Brookwood<input type="checkbox" value="6"></li>
+               <li><label for="bisley">Bisley<input type="checkbox" value="7"></li>
+               <li><label for="west end">Westend<input type="checkbox" value="8"></li>
+               <li><label for="lightwater">Lightwater<input type="checkbox" value="10"></li>
+               <li><label for="other">Other<br><input id="other" type="text" placeholder="Please specify"></li>
+           </div>
+       </div> 
+     </div>
+      
+      
+      
+      <button id="submit" type="submit">Submit</button> 
+      </div>
+   
+  </form>
+    
+  
+</div>
+</body>
